@@ -25,10 +25,10 @@ $(".btn").click(function () {
 });
 function checkAnswer(currentLevel) {
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
-     
+
         if (userClickedPattern.length === gamePattern.length) {
 
-            
+
             setTimeout(function () {
                 nextSequence();
             }, 1000);
@@ -41,10 +41,10 @@ function checkAnswer(currentLevel) {
         playSound("wrong");
         $("body").addClass("game-over");
         $("#level-title").text("Game Over, Press Any Key to Restart");
-        setTimeout(function (){
+        setTimeout(function () {
             $("body").removeClass("game-over");
         }, 200)
-        
+
         startOver();
     }
 
@@ -76,9 +76,8 @@ function playSound(name) {
 }
 
 
-function startOver()
-{
-    level =0;
-    gamePattern =[];
+function startOver() {
+    level = 0;
+    gamePattern = [];
     started = false;
 }
