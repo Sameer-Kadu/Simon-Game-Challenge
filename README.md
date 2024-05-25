@@ -6,7 +6,6 @@ This is a web-based implementation of the classic Simon game. The game challenge
 - Features
 - Installation
 - Usage
-- Project Structure
 - Technologies Used
 - Contributing
 
@@ -22,33 +21,26 @@ The Simon Game is a memory skill game where players need to repeat sequences of 
 ## Installation
 To run this project locally, follow these steps:
 
-    1. Clone the repository:
+1. Clone the repository:
 
 
 ### `git clone https://github.com/yourusername/Simon-Game-Challenge.git`
-    2. Navigate to the project directory:
+2. Navigate to the project directory:
 
 
 ### `cd Simon-Game-Challenge`
-    3. Ensure you have a modern web browser installed.
+3. Ensure you have a modern web browser installed.
 
 ## Usage
-    1. Open the index.html file in your web browser.
-    2. Press any key to start the game.
-    3. Repeat the sequence of colors as they are shown and listen to the corresponding sounds.
-    4. The game will advance to the next level if you successfully repeat the sequence.
-    5. If you make a mistake, the game will display a "Game Over" message and reset.
-## Project Structure
+1. Open the index.html file in your web browser.
+2. Press any key to start the game.
+3. Repeat the sequence of colors as they are shown and listen to the corresponding sounds.
+4. The game will advance to the next level if you successfully repeat the sequence.
+5. If you make a mistake, the game will display a "Game Over" message and reset.
+## Screenshots
+![image](https://github.com/Sameer-Kadu/Simon-Game-Challenge/assets/115989281/64c224e0-4c1d-4304-8452-c2fa82e183e0)
 
-### `Simon-Game-Challenge/`
-### `├── index.html        # The main HTML file`
-### `├── game.js           # JavaScript file containing game logic`
-### `├── styles.css        # CSS file for styling (if applicable)`
-### `└── sounds/           # Directory containing sound files`
-###     `├── red.mp3`
-###     `├── blue.mp3`
-###     `├── green.mp3`
-###     `└── yellow.mp3`
+     
 ## Technologies Used
 - HTML5
 - CSS3
@@ -57,7 +49,7 @@ To run this project locally, follow these steps:
 ## Contributing
 Contributions are welcome! To contribute:
 
-    1. Fork the repository.
-    2. Create a new branch with your feature or bugfix.
-    3. Commit your changes and push to your branch.
-    4. Create a pull request detailing your changes.
+1. Fork the repository.
+2. Create a new branch with your feature or bugfix.
+3. Commit your changes and push to your branch.
+4. Create a pull request detailing your changes.
